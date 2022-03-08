@@ -1,7 +1,7 @@
 import './App.css';
 import Heading from './components/Heading';
-import HandwrittenNotes from './components/HandwrittenNotes';
-import FlashCards from './components/FlashCards';
+import Row1 from './components/Row1';
+import Row2 from './components/Row2';
 
 function App() {
   return (
@@ -9,9 +9,9 @@ function App() {
 
       <Heading />
       
-      <HandwrittenNotes />
+      <Row1 />
 
-      <FlashCards />
+      <Row2 />
 
     </div>
   );
